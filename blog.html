@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css" >
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Glozzom</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="about-banner">
+    <div class="container text-center py-5 text-white">
+      <h1>Read Our Blog</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Numquam, assumenda?</p>
+    </div>
+  </section>
+
+  <section class="blog-section pt-5 pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header p-0">
+              <img class="img-fluid" src="./img/carousel1.jpg">
+            </div>
+            <div class="card-body">
+              <h3>Blog Post One</h3>
+              <span class="text-muted">Written by Jeff on 05/20</span>
+              <hr>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum laboriosam, nesciunt aperiam quasi molestias eius ipsam similique quaerat esse odio quo! Enim optio tempora necessitatibus quae tempore adipisci nemo excepturi quos?</p>  
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header p-0">
+              <img class="img-fluid" src="./img/carousel2.jpg">
+            </div>
+            <div class="card-body">
+              <h3>Blog Post Two</h3>
+              <span class="text-muted">Written by Karen on 05/22</span>
+              <hr>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum laboriosam, nesciunt aperiam quasi molestias eius ipsam similique quaerat esse odio quo! Enim optio tempora necessitatibus quae tempore adipisci nemo excepturi quos?</p>  
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header p-0">
+              <img class="img-fluid" src="./img/carousel3.jpg">
+            </div>
+            <div class="card-body">
+              <h3>Blog Post Three</h3>
+              <span class="text-muted">Written by Harry on 05/23</span>
+              <hr>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum laboriosam, nesciunt aperiam quasi molestias eius ipsam similique quaerat esse odio quo! Enim optio tempora necessitatibus quae tempore adipisci nemo excepturi quos?</p>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corrupti, expedita quam culpa accusantium ratione.</p>
+              <span class="text-muted">- Someone Famous in Source Title</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-danger text-white">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corrupti, expedita quam culpa accusantium ratione.</p>
+              <span>- Someone Famous in Source Title</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corrupti, expedita quam culpa accusantium ratione.</p>
+              <span class="text-muted">- Someone Famous in Source Title</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Glozzom</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/popper.js"></script>
+  <script src="vendors/js/bootstrap.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+  </script>
+</body>
+
+</html>
